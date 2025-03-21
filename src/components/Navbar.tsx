@@ -40,16 +40,28 @@ export default function Navbar() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
-              Product
+            <a
+              href="#"
+              className="text-sm/6 font-semibold text-gray-900 hover:bg-slate-800 hover:text-pink-600 hover:font-bold px-4 py-2 rounded-lg"
+            >
+              My Portofolio
             </a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
-              Features
+            <a
+              href="#"
+              className="text-sm/6 font-semibold text-gray-900 hover:bg-slate-800 hover:text-pink-600 hover:font-bold px-4 py-2 rounded-lg"
+            >
+              Above me
             </a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
-              Marketplace
+            <a
+              href="#"
+              className="text-sm/6 font-semibold text-gray-900 hover:bg-slate-800 hover:text-pink-600 hover:font-bold px-4 py-2 rounded-lg"
+            >
+              Contact me
             </a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            <a
+              href="#"
+              className="text-sm/6 font-semibold text-gray-900 hover:bg-slate-800 hover:text-pink-600 hover:font-bold px-4 py-2 rounded-lg"
+            >
               Company
             </a>
           </div>

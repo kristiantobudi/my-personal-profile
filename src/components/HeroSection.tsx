@@ -5,14 +5,19 @@ import WorldMap from "./ui/world-map";
 export default function HeroSection() {
   return (
     <>
-      <div className="py-24 sm:py-32">
-        <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
+      <div className="py-2 sm:py-12">
+        <div className="pt-10 mx-auto max-w-screen-2xl text-center lg:pt-16">
           <div className="flex items-center justify-center">
             <h1 className="text-3xl lg:text-4xl font-extrabold leading-tight tracking-tight text-slate-700 md:text-5xl">
               Hi! I'm ,{" "}
             </h1>
             <RotatingText
-              texts={["Eduardo", "Programmer", "Developer", "Designer"]}
+              texts={[
+                "Kristianto Budi Purwoko",
+                "Programmer",
+                "Developer",
+                "Designer",
+              ]}
               mainClassName="px-2 sm:px-2 md:px-2 bg-radial from-pink-400 to-pink-600 text-2xl text-white sm:text-3xl md:text-4xl font-bold text-black overflow-hidden py-0.5 sm:py-1 md:py-1 rounded-lg"
               staggerFrom={"last"}
               initial={{ y: "100%", opacity: 0 }}
@@ -26,7 +31,7 @@ export default function HeroSection() {
           </div>
           <h1 className="mb-4 text-2xl lg:text-4xl font-extrabold leading-tight tracking-tight text-slate-700 md:text-5xl ">
             a <span className="text-pink-600">Frontend Developer</span> from{" "}
-            <span className="text-pink-600">Colombia</span>
+            <span className="text-pink-600">Boyolali</span>
           </h1>
           <p className="mb-8 text-lg font-light text-gray-500 lg:text-lg">
             I'm a frontend developer, currently working at{" "}
